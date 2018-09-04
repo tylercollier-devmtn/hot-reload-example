@@ -30,7 +30,7 @@ class App extends Component {
         </p>
         <div>
           counter: {this.state.counter}
-          <div><button onClick={() => this.setState({ counter: this.state.counter + 1 })}>Click me</button></div>
+          <div><button onClick={() => this.setState({ counter: this.state.counter + 1 })}>Click me2</button></div>
         </div>
       </div>
     );

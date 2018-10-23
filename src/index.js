@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { Provider } from 'react-redux';
-import store from './ducks/store';
+import configureStore from './ducks/store';
 import { BrowserRouter } from 'react-router-dom';
 
 // Add this import:
 import { AppContainer } from 'react-hot-loader';
+
+const store = configureStore()
 
 // Wrap the rendering in a function:
 const render = () => {
